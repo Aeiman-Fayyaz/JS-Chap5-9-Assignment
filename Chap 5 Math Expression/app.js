@@ -4,12 +4,13 @@
 
 // ANSWER
 
-// let num1 = 10
+/*let num1 = 10
 
-// let num2 = 6
+let num2 = 6
 
-// console.log (num1 + num2)
+let num3 = 16
 
+document.write ("sum of " + num1 + " and " + num2 + " is " + num3  )*/
 
 // QUESTION 2
 // Repeat task1 for subtraction, multiplication, division &
@@ -50,26 +51,53 @@
 // a. Declare a variable
 // let number;
 
+// b. Decleration
 // number = 16
 
+// document.write ("Value after variable declaration is " + number)
+
+// c. Initialization
 // number = 20
 
+// d.
+// document.write ("Value after variable initialization is " + number)
+
+
+// e. Increment
+
 // number++ 
+
 // console.log(number);
+
+// f.
+// document.write ("Value after increment is " + number)
+
+// g. Addition
 
 // let number1 = 21
 
 // let number2 = 7
 
-// increment
 // console.log(number1 + number2);
 
-// decrement
+// h.
+
+// document.write ("Value after addition is " + (number1 + number2))
+
+// i. Decrement
 // console.log(number1 - number2);
 
-// division
-// console.log(number1 % number2);
+// j.
 
+// document.write ("Value after decrement is " + (number1 - number2)) 
+
+
+// k. division
+// console.log(number1 / number2);
+
+// l.
+
+// document.write ("Value after division is " + (number1 / number2))
 
 
 // QUESTION 4
@@ -92,6 +120,30 @@
 
 // ANSWER
 
+// let counter = 1
+
+// document.write ("<h1>Table of 6 </h1>")
+
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
+// document.write ("7 x " + counter + " = " + 7 * counter + "<br/>")
+// counter++
 
 
 // QUESTION 6
@@ -106,6 +158,26 @@
 
 // ANSWER
 
+// a. Store a Celsius temperature into a variable.
+
+// let celcius = 30
+
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+
+// let fahrenheit = (celcius * 9 / 5) + 32
+
+// console.log(fahrenheit);
+
+// c. Now store a Fahrenheit temperature into a variable.
+
+// let fahrenheitConvert = 86
+
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+
+// let celciusValue = (86-32)* 5/9
+
+// console.log(celciusValue);
+
 
 
 // QUESTION 7
@@ -115,7 +187,37 @@
 
 // ANSWER
 
+// Price of item 1
 
+// let price1 = 300 
+
+// Price of item 2
+
+// let price2 = 600
+
+// Quantity of item1
+
+// let Qtyitem1 = 3
+
+// Quantity of item2
+
+// let Qtyitem2 = 4
+
+// Shipping charges
+
+// let dc = 150
+
+// document.write ("<h1>Checkout of your Order</h1> <br/>")
+
+// Total amount
+
+// let total = (price1 + Qtyitem1) + (price2 + Qtyitem2) + dc
+
+// console.log(total);
+
+// document.write ("Total Price <br/>" + (price1 + price2) + "<br/>")
+// document.write ("Total Quantity <br/> " + (Qtyitem1 + Qtyitem2) + "<br/>")
+// document.write ("Total amount <br/> " + total)
 
 // QUESTION 8
 // Store total marks & marks obtained by a student in 2
@@ -124,6 +226,22 @@
 
 // ANSWER
 
+// Total Marks
+
+// let stdTotalMarks = 1250
+
+// Obtained Marks
+
+// let stdObtainedMarks = 987
+
+// let percentage = (stdObtainedMarks / stdTotalMarks) * 100 ;
+
+// console.log(percentage);
+
+// document.write ("<h1>Student Marksheet</h1> <br/>")
+// document.write ("Obtained Marks<br/>" + stdObtainedMarks + "<br/>")
+// document.write ("Total Marks <br/>" + stdTotalMarks + "<br/>")
+// document.write ("Percentage <br/>" + percentage)
 
 
 // QUESTION 9
