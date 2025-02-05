@@ -253,6 +253,13 @@ document.write ("sum of " + num1 + " and " + num2 + " is " + num3  )*/
 
 // ANSWER
 
+// let convertCurrency = (10 * 104.80) + (25 * 28)
+
+// document.write ("<h1>Total Curreny in PKR</h1> <br/>") 
+
+// document.write (convertCurrency + " PKR")
+
+// console.log(convertCurrency);
 
 
 // QUESTION 10
@@ -264,6 +271,12 @@ document.write ("sum of " + num1 + " and " + num2 + " is " + num3  )*/
 // Perform all calculations in a single expression
 
 // ANSWER
+
+// let arithmetic = 17 
+
+// let calculation = (arithmetic + 5) + (arithmetic * 10) + (arithmetic / 2)
+
+// console.log(calculation);
 
 
 
@@ -280,6 +293,30 @@ document.write ("sum of " + num1 + " and " + num2 + " is " + num3  )*/
 
 // ANSWER
 
+// a. Store the current year in a variable.
+
+// let currentYear = 2025
+
+// b. Store their birth year in a variable.
+
+// let birthYear = 2002 
+
+// c. Calculate their 2 possible ages based on the stored
+// values.
+
+// let age = (currentYear - birthYear)
+
+// Output them to the screen like so: “They are either NN or NN
+// years old”.
+
+// document.write ("<h1>Age Calculator</h1>")
+
+// document.write ("Current Year " + currentYear + "<br/>")
+
+// document.write ("Birth Year " + birthYear + "<br/>")
+
+// document.write ("Your Age " + age)  
+// console.log(age);
 
 
 // QUESTION 12
@@ -293,7 +330,29 @@ document.write ("sum of " + num1 + " and " + num2 + " is " + num3  )*/
 
 // ANSWER
 
+// document.write ("<h1>The Geometrizer: Calculate properties of a circle.</h1>")
 
+// a. Store a radius into a variable.
+
+// let radius = 13
+
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+
+// let circumference = 2 * 3.142 * radius
+
+// document.write ("The circumference is " + circumference + "<br/>")
+
+// console.log(circumference);
+
+// Calculate the area based on the radius, and output “The
+// area is NN”.
+
+// let areaOfCircle = 3.142 * radius * radius
+
+// console.log(areaOfCircle);
+
+// document.write ("The area is " + areaOfCircle )
 
 // QUESTION 13
 // The Lifetime Supply Calculator: Ever wonder how
@@ -310,3 +369,37 @@ document.write ("sum of " + num1 + " and " + num2 + " is " + num3  )*/
 
 // ANSWER
 
+// a. Store your favorite snack into a variable
+
+// let favSnack = "chocolate"
+
+// b. Store your current age into a variable.
+
+// let currentAge = 23 
+
+// c. Store a maximum age into a variable.
+
+// let maxAge = 50 
+
+// d. Store an estimated amount per day (as a number).
+
+// let amountPerDay = 6
+
+// e. Calculate how many would you eat total for the rest of
+// your life.
+
+// let totalSnack = (currentAge - maxAge) * (365 * amountPerDay)
+
+// console.log(totalSnack); 
+
+// document.write ("<h1>“lifetime supply” of your favorite snack is?</h1>")
+
+// document.write ("Your favourite snack " + favSnack + "<br/>")
+
+// document.write ("Your current age " + currentAge + "<br/>") 
+
+// document.write ("Your maximum age " + maxAge + "<br/>") 
+
+// document.write ("Snack amount per day " + amountPerDay + "<br/>")
+
+// document.write ("You will need " + totalSnack + "rs" +" to last you until the ripe old age of " + maxAge)
