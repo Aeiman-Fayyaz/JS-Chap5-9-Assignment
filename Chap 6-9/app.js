@@ -179,32 +179,86 @@
 // a) Take three subjects name from user and store them in 3
 // different variables.
 
-let subject1 = console.log(prompt ("Enter your first subejct name"));
+// let subject=1 = +prompt ("Enter your first subejct name");
 
-let subject2 = console.log(prompt ("Enter your second subejct name"));
+// let subject2 = +prompt ("Enter your second subejct name");
 
-let subject3 = console.log(prompt ("Enter your third subejct name"));
+// let subject3 = +prompt ("Enter your third subejct name");
 
 // b) Total marks for each subject is 100, store it in another
 // variable.
 
-let totalMarks = 300
+// let totalMarks = 300
 
 // c) Take obtained marks for first subject from user and
 // stored it in different variable.
 
-let obtainedMarksSubject1 = console.log(prompt ("Enter your first subject Marks"));
+// let obtainedMarksSubject1 = +prompt ("Enter your first subject Marks");
 
 // d) Take obtained marks for remaining 2 subjects from user
 // and store them in variables.
 
-let obtainedMarksSubject2 = console.log(prompt ("Enter your second subject Marks"));
+// let obtainedMarksSubject2 = +prompt ("Enter your second subject Marks");
 
-let obtainedMarksSubject3 = console.log(prompt ("Enter your third subject Marks"));
+// let obtainedMarksSubject3 = +prompt ("Enter your third subject Marks");
 
 // e) Now calculate total marks and percentage and show the
 // result in browser like this.(Hint: user table)
 
-let obtainedMarks =  obtainedMarksSubject1 + obtainedMarksSubject2 + obtainedMarksSubject3
+// let obtainedMarks =  obtainedMarksSubject1 + obtainedMarksSubject2 + obtainedMarksSubject3
 
-console.log(obtainedMarks);
+// let percentage = (obtainedMarks / totalMarks) * 100
+
+// let percentage1 = (obtainedMarksSubject1 / 100) * 100
+
+// let percentage2 = (obtainedMarksSubject2 / 100) * 100
+
+// let percentage3 = (obtainedMarksSubject3 / 100) * 100
+
+// document.write ("<h1>Student Marksheet</h1>")
+
+// document.write ("<table>")
+
+// document.write ("<tr>")
+
+// document.write ("<th>" + "Subjects" + "</th>")
+// document.write ("<th>" + "Total" + "</th>")
+// document.write ("<th>" + "Obtained Marks" + "</th>")
+// document.write ("<th>" + "Percentage" + "</th>")
+
+// document.write ("</tr>")
+
+// document.write ("<tr>")
+
+// document.write ("<td>" + subject1 + "</td>")
+// document.write ("<td>" + "100" + "</td>")
+// document.write ("<td>" + obtainedMarksSubject1 + "</td>")
+// document.write ("<td>" + percentage1 + "%" + "</td>")
+
+// document.write ("</tr>")
+
+// document.write ("<tr>")
+
+// document.write ("<td>" + subject2 + "</td>")
+// document.write ("<td>" + "100" + "</td>")
+// document.write ("<td>" + obtainedMarksSubject2 + "</td>")
+// document.write ("<td>" + percentage2 + "%" + "</td>")
+
+// document.write ("</tr>")
+
+// document.write ("<tr>")
+
+// document.write ("<td>" + subject3 + "</td>")
+// document.write ("<td>" + "100" + "</td>")
+// document.write ("<td>" + obtainedMarksSubject3 + "</td>")
+// document.write ("<td>" + percentage3 + "%" + "</td>")
+
+// document.write ("</tr>")
+
+// document.write ("<Th>" + "</Th>")
+// document.write("<th>" + totalMarks + "</th>");
+// document.write("<th>" + obtainedMarks + "</th>");
+// document.write("<th>" + percentage + "%" + "</th>");
+
+// document.write ("</table>")
+
